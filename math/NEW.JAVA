@@ -4,7 +4,7 @@ public class Main {
             int a = 10;
             int b = 0;
 
-            int result = a / b; 
+            int result = a / b; // This will cause ArithmeticException
             System.out.println("Result: " + result);
         } 
         catch (ArithmeticException e) {
